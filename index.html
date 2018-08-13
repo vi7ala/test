@@ -6,11 +6,68 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Experiment</title>
+    <link type="text/less" rel="stylesheet" href="css/header.less">
     <link type="text/less" rel="stylesheet" href="css/main.less">
-<!--    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>-->
+    <!--    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>-->
     <script type="text/javascript" src="js/less.min.js"></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
+<header class="header">
+    <menu class="header__menu menu">
+        <a class="menu__item menu__item--active" href="#"><span class="menu__text">Main</span></a>
+        <a class="menu__item" href="#"><span class="menu__text">Article</span></a>
+        <a class="menu__item" href="#"><span class="menu__text">FAQ</span></a>
+    </menu>
+    <div class="header__logo logo">
+        <img class="logo_item" alt="logo" src="images/logo.png">
+    </div>
+</header>
+<main>
+    <section class="nav-bar">
+        <nav class="nav-bar__menu">
+            <ul class="nav-bar__items">
+                <li class="nav-bar__item">
+                    <a class="nav-bar__link" href="#">
+                        Example
+                    </a>
+                </li>
+                <li class="nav-bar__item">
+                    <a class="nav-bar__link" href="#">
+                        Example
+                    </a>
+                </li>
+                <li class="nav-bar__item">
+                    <a class="nav-bar__link" href="#">
+                        Example
+                    </a>
+                </li>
+                <li class="nav-bar__item">
+                    <a class="nav-bar__link" href="#">
+                        Example
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section class="articles">
+        <div class="articles-list">
+            <div class="article">
+                <h1 class="article__name">
+                    Testing
+                </h1>
+                <p class="article__text">
+                    Some interesting and usefull text
+                </p>
+                <p class="article__author">
+                    vi7ala
+                </p>
+                <time class="article__date">
+                    13-08-2018
+                </time>
+            </div>
+        </div>
+    </section>
+</main>
+
 </body>
 </html>
